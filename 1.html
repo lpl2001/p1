@@ -5,21 +5,68 @@
   <meta charset="utf-8">
 </head>
 
+<style>
+
+#grid {
+
+display: grid;
+grid-template-columns: 150px 1fr;
+
+}
+
+#grid ol {
+
+  padding-left: 33px;
+
+}
+
+#article {
+
+padding-left: 25px;
+
+}
+
+  h1 {
+    font-size: 90px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0; padding:20px;
+  }
+
+  ol {
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+  }
+
+  body {
+      margin:0;
+
+  }
+
+</style>
+
 <h1><a href="index.html">WEB</a></h1>
 <body>
-<ol>
-  <li><a href="1.html">Philosophy</a></li>
-  <li><a href="2.html">Computer Science</a></li>
-  <li><a href="3.html">Art</a></li>
-  <li><a href="4.html">Benefits</a></li>
-  <li><a href="5.html">About</a></li>
-  <li><a href="certificate.html">Certificate</a></li>
-</ol>
+  <div id="grid">
+  <ol>
+    <li><a href="1.html">Philosophy</a></li>
+    <li><a href="2.html">Computer Science</a></li>
+    <li><a href="3.html">Art</a></li>
+    <li><a href="4.html">Benefits</a></li>
+    <li><a href="5.html">About</a></li>
+    <li><a href="certificate.html">Certificate</a></li>
+  </ol>
 
-<h2><a href="https://www.w3.org/TR/html5/" target="_blank"
-  title="HTML5 SPECIFICATION">HTML</a>이란 무엇인가?</h2>
+  <div id="article">
+
+<h2><a href="https://namu.wiki/w/%EC%B2%A0%ED%95%99" target="_blank"
+  title="HTML5 SPECIFICATION">Philosophy</a>란 무엇인가?</h2>
 <p>가나다라마바<strong>사<u>아자</u></strong>차카타파하</p>
 <img src="phil.jpg" width="400">
-<p>아야어여오요우유으이</p>
+</div>
+
+</div>
 </body>
 </html>

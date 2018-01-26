@@ -5,23 +5,75 @@
   <meta charset="utf-8">
 </head>
 
-<h1><a href="index.html">WEB</a></h1>
-<body>
-<ol>
-  <li><a href="1.html">Philosophy</a></li>
-  <li><a href="2.html">Computer Science</a></li>
-  <li><a href="3.html">Art</a></li>
-  <li><a href="4.html">Benefits</a></li>
-  <li><a href="5.html">About</a></li>
-  <li><a href="certificate.html">Certificate</a></li>
-</ol>
+<style>
 
-<h2>CSS</h2>
-<p>가래떡은 4cm 정도의 길이로 잘라 2∼4갈래로 썰고 쇠고기는 잘게 채썰어서 양념에 쟁여 둔다.
+#grid {
+
+display: grid;
+grid-template-columns: 150px 1fr;
+
+}
+
+#grid ol {
+
+  padding-left: 33px;
+
+}
+
+#article {
+
+padding-left: 25px;
+
+}
+
+  h1 {
+    font-size: 90px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0; padding:20px;
+  }
+
+  ol {
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+  }
+
+  body {
+      margin:0;
+
+  }
+
+</style>
+
+<h1><a href="index.html">WEB</a></h1>
+
+<body>
+
+<div id="grid">
+
+  <ol>
+    <li><a href="1.html">Philosophy</a></li>
+    <li><a href="2.html">Computer Science</a></li>
+    <li><a href="3.html">Art</a></li>
+    <li><a href="4.html">Benefits</a></li>
+    <li><a href="5.html">About</a></li>
+    <li><a href="certificate.html">Certificate</a></li>
+  </ol>
+
+  <div id="article">
+
+    <h2>Computer Science</h2>
+    <p>가래떡은 4cm 정도의 길이로 잘라 2∼4갈래로 썰고 쇠고기는 잘게 채썰어서 양념에 쟁여 둔다.
   파 ·미나리 ·당근은 떡과 같은 길이로 썰어 살짝 볶아놓고, 달걀은 흰자와 노른자로 나누어 지단을 부쳐 느타리 ·표고와 함께 마름모꼴로 각각 썬다.
    냄비에 양념한 고기와 버섯을 넣어 볶고 물을 조금 부어 간을 맞춘 후 떡과 당근을 넣어 다시 볶는다.
    떡이 익으면서 간이 배면 미나리와 파를 넣고 잠깐 볶은 후 설탕을 넣는다.
    오목한 그릇에 담고 마름모꼴로 썬 달걀 지단을 얹고 실백을 뿌리거나 호두와 은행을 얹는다.
-<p>아야어여오요우유으이</p>
+
+ </div>
+
+</div>
+
 </body>
 </html>
